@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  font-size: 4rem;
+  font-weight: bold;
+  width: 8rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+}
+.container {
+  max-width: 50%;
+  margin: 2em auto 0;
+  text-align: center;
+  background-color: #7c93c3;
+}
+
+.topContainer {
+  background-color: #a25772;
+  padding-top: 2em;
+}
+.topContainer button {
+  color: #a25772;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.bottomContainer {
+  padding: 1rem 0;
+}
+
+.lengthBox,
+.volumeBox,
+.massBox {
+  background-color: #9eb8d9;
+  max-width: 90%;
+  margin: 1.5rem auto;
+  padding: 0.6rem 1rem;
+  color: #a25772;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+}
+.bottomContainer p {
+  color: #ffffff;
+}
