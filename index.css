@@ -16,15 +16,18 @@ input {
   text-align: center;
 }
 .container {
-  max-width: 60%;
+  width: 90vw;
+  max-width: 550px;
   margin: 2em auto 0;
-  text-align: center;
   background-color: #7c93c3;
 }
 
 .topContainer {
   background-color: #a25772;
-  padding-top: 2em;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .topContainer button {
   color: #a25772;
@@ -41,13 +44,15 @@ button:hover {
 }
 .bottomContainer {
   padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .lengthBox,
 .volumeBox,
 .massBox {
   background-color: #9eb8d9;
-  max-width: 90%;
   margin: 1.5rem auto;
   padding: 0.6rem 1rem;
   color: #a25772;
