@@ -33,4 +33,5 @@ button.addEventListener("click", function () {
   ).toFixed(2)} pounds | ${baseValue} pounds = ${(
     baseValue / kiloToPound
   ).toFixed(2)} kilos`;
+  inputEl.value = "";
 });
